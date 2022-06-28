@@ -5,8 +5,8 @@ function draw() {
       var y = 70;
   
         ctx.beginPath();
+
         // Caja
-        
         ctx.strokeRect(120,10,300,500);
 
         ctx.font="2em Verdana";
@@ -20,7 +20,6 @@ function draw() {
         ctx.arc(260,65 + y,5,0,Math.PI*2,true);  // Ojo izquierdo
         ctx.moveTo(295,65 + y);
         ctx.arc(290,65 + y,5,0,Math.PI*2,true);  // Ojo derecho
-
 
         // Línea cuerpo
         ctx.moveTo(270,125 + y);
