@@ -26,7 +26,30 @@ function draw() {
         ctx.moveTo(270,125 + y);
         ctx.lineTo(270,300 + y);
 
-       
+        // Brazos
+        ctx.moveTo(200,175 + y);
+        ctx.lineTo(340,175 + y);
+
+        // Piernas
+        ctx.moveTo(270,300 + y);
+        ctx.lineTo(200,340 + y);
+
+        ctx.moveTo(270,300 + y);
+        ctx.lineTo(340,340 + y);
+
+        // Manos
+        ctx.moveTo(200,175 + y);
+        ctx.lineTo(180,200 + y);
+
+        ctx.moveTo(340,175 + y);
+        ctx.lineTo(360,150 + y);
+
+        // Piernas
+        ctx.moveTo(200,340 + y);
+        ctx.lineTo(220,360 + y);
+
+        ctx.moveTo(340,340 + y);
+        ctx.lineTo(320,360 + y);
 
         ctx.stroke();
   
